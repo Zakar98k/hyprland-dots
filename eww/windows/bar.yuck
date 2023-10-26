@@ -1,0 +1,35 @@
+(defwindow bar 
+  :monitor 0
+  :geometry (geometry
+    :anchor "bottom center"
+    :width "1896px"
+    :height "40px"
+    :x "0%"
+    :y "8px"
+  )
+  :exclusive "true"
+  :stacking "fg"
+  (centerbox 
+    :class "bar-modules"
+    :orientation "h"
+    (modules_left)
+    (modules_center)
+    (modules_right)
+  )
+)
+
+(defwidget modules_left []
+  (box :orientation "h" :space-evenly false :halign "start" :class "bar-modules-left"
+    (powermenu)
+  )
+)
+(defwidget modules_center []
+  (box :orientation "h" :space-evenly false :halign "center" :class "bar-modules-center"
+    "Center modules go here" 
+  )
+)
+(defwidget modules_right []
+  (box :orientation "h" :space-evenly false :halign "end" :class "bar-modules-right"
+    "Right modules go here" 
+  )
+)

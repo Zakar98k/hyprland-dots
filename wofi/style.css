@@ -1,0 +1,64 @@
+* {
+  all: unset;
+}
+
+window {
+  margin: 0px;
+  border: 2px solid --wofi-color3;
+  border-left: none;
+  background-color: --wofi-color0;
+  font-family:
+    Iosevka SS14,
+    monospace;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 10px --wofi-color0;
+}
+
+#input {
+  border: none;
+  margin-bottom: 20px;
+  padding: 3px;
+  color: --wofi-color5;
+  background-color: --wofi-color2;
+}
+
+#input image {
+  color: --wofi-color2;
+  display: none;
+}
+
+#inner-box {
+  border: none;
+  background-color: --wofi-color0;
+}
+
+#outer-box {
+  margin: 20px 20px 30px 20px;
+  border: none;
+  background-color: --wofi-color0;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+  color: --wofi-color3;
+}
+
+#text {
+  /* margin: 5px; */
+  padding: 0px 10px;
+  border: none;
+  color: --wofi-color5;
+}
+
+#entry:selected {
+  background-color: --wofi-color1;
+  font-weight: normal;
+  border-bottom: solid 2px --wofi-color10;
+}
+
+#text:selected {
+  background-color: --wofi-color10;
+  color: --wofi-color0;
+  font-weight: normal;
+}

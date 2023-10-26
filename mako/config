@@ -1,0 +1,40 @@
+# Configuration for mako
+
+# Global config
+max-history=5
+sort=-time
+
+font=Terminess Nerd Font 12
+width=300
+height=100
+outer-margin=20
+margin=10
+padding=15
+border-size=2
+border-radius=6
+icons=1
+text-alignment=left
+default-timeout=5000
+layer=overlay
+anchor=top-left
+
+# Start flavours
+## Base16 Base16 Yami
+# Author: Zakar98k (https://github.com/Zakar98k)
+#
+# You can use these variables anywhere in the mako configuration file.
+
+background-color=#000000dd
+text-color=#b3beb8dd
+border-color=#505754dd
+
+[urgency=low]
+background-color=#000000bb
+text-color=#505754bb
+border-color=#505754bb
+
+[urgency=high]
+background-color=#000000ff
+text-color=#5f8787ff
+border-color=#505754ff
+# End flavours

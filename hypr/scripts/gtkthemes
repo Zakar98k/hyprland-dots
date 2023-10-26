@@ -1,0 +1,21 @@
+#!/bin/bash
+
+## Set GTK Themes, Icons, Cursor and Fonts
+
+# THEME='evangelist'
+# # ICONS='Tela circle black dark'
+# FONT='Iosevka SS14 Light 11'
+# # CURSOR='Bibata-Modern-Classic 24'
+#
+# SCHEMA='gsettings set org.gnome.desktop.interface'
+#
+# apply_themes() {
+# 	${SCHEMA} gtk-theme "$THEME"
+# 	# ${SCHEMA} icon-theme "$ICONS"
+# 	# ${SCHEMA} cursor-theme "$CURSOR"
+# 	${SCHEMA} font-name "$FONT"
+# }
+#
+# apply_themes
+
+hyprctl setcursor Bibata-Modern-Classic 24

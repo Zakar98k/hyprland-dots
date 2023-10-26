@@ -1,0 +1,59 @@
+{
+  "height": 40, // Waybar height (to be removed for auto height)
+  "layer": "top", // Waybar at top layer
+  "position": "bottom",
+  "margin": "0px 0px 0px 0px",
+
+  "include": ["~/.config/waybar/modules.json"],
+
+  "modules-left": ["custom/wlogout", "battery", "hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+    //"custom/power-menu"
+    //"custom/wallpaper",
+    "tray",
+    "group/control",
+    "clock"
+    //"cpu",
+    //"memory"
+    //"image"
+  ],
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 45
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "cpu": {
+    "interval": 10,
+    "format": "  {}%  ",
+    "on-click": "foot btop"
+  },
+  "memory": {
+    "interval": 30,
+    "format": "  {}%",
+    "max-length": 10,
+    "on-click": "foot btop"
+  },
+  "battery": {
+    "interval": 60,
+    "align": 0,
+    "rotate": 0,
+    "full-at": 100,
+    "design-capacity": false,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}  {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-full": "{icon}  Full",
+    "format-alt": "{icon}  {time}",
+    "format-icons": ["", "", "", "", ""],
+    "format-time": "{H}h {M}min",
+    "tooltip": true
+  }
+}

@@ -1,0 +1,103 @@
+@import "colors.css";
+
+/* Unset all gtk styles */
+* {
+  all: unset;
+  font-family: desertedttf;
+  /* text-shadow: 0px 0px 3px @base00; */
+  font-size: 15px;
+  /* border: 1px solid red; */
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @base05;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  /* border: 1px solid @base03; */
+  border-radius: 8px;
+}
+
+tooltip {
+  background-color: @base00;
+  padding: 25px;
+  margin: 0px;
+}
+tooltip label {
+  border: 1px solid @base02;
+  padding: 20px;
+  background-color: @base00;
+  color: @base05;
+}
+
+#battery,
+#window,
+#clock,
+#cpu,
+#memory,
+#bluetooth,
+#backlight,
+#pulseaudio,
+#network,
+#tray {
+  margin-bottom: 3px;
+}
+
+#window {
+  font-style: italic;
+}
+
+#backlight,
+#pulseaudio,
+#network,
+#bluetooth,
+#tray {
+  padding: 0px 3px 0px 3px;
+  margin: 0px 4px 3px 4px;
+}
+
+#memory {
+  margin-right: 18px;
+  /* padding-left:10px; */
+}
+
+#cpu,
+#bluetooth {
+  margin-left: 20px;
+}
+
+#battery {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#workspaces {
+  margin-bottom: 5px;
+}
+
+#workspaces button {
+  background-color: @base00;
+  border: none;
+  border-radius: 0px;
+  margin: 2px 0px 0px 0px;
+  padding: 0px 8px;
+  box-shadow: none;
+  border-bottom: 1px solid @base03;
+}
+
+#workspaces button.active {
+  border-bottom: 2px solid @base0A;
+  color: @base05;
+}
+
+#workspaces button.persistent {
+  color: @base03;
+  border-bottom: none;
+  border-bottom: 1px solid @base00;
+}
+
+#image {
+  margin: 2px 2px 2px 0px;
+  border-radius: 8px;
+  /* border: 1px solid red; */
+}

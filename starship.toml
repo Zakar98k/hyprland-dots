@@ -1,0 +1,43 @@
+# Use custom format:
+format="$directory$git_branch$character"
+palette = 'base16'
+add_newline = true
+
+# Prompt symbols 
+[character]
+# success_symbol = "[🞈](fg:base03)"
+# error_symbol = "[🞈](base08)"
+# vicmd_symbol = "[🞈](fg:yellow)"
+success_symbol = "[❯](fg:yellow)"
+error_symbol = "[](red)"
+vicmd_symbol = "[❯](fg:cyan)"
+
+[directory]
+format = "[]($style)[$path](bg:cyan fg:black)[ ]($style)"
+style = "fg:cyan"
+
+[git_branch]
+format = "[]($style)[[ ](bg:yellow fg:black bold)$branch](bg:yellow fg:black)[ ]($style)"
+style = "fg:yellow"
+
+# Start flavours
+# base16 Base16 Yami colorscheme for starship
+# Author: Zakar98k (https://github.com/Zakar98k)
+[palettes.base16]
+base00 = '#000000'
+base01 = '#121212'
+base02 = '#222222'
+base03 = '#333333'
+base04 = '#505754'
+base05 = '#b3beb8'
+base06 = '#c1c1c1'
+base07 = '#dae9e2'
+base08 = '#5f8787'
+base09 = '#8f9995'
+base0A = '#79241f'
+base0B = '#974b46'
+base0C = '#505754'
+base0D = '#5f8787'
+base0E = '#363c3a'
+base0F = '#505754'
+# End flavours

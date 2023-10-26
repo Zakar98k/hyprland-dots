@@ -1,0 +1,144 @@
+/* <-- Base16 Colors --> */
+/* Start flavours */
+@define-color base00 #000000;
+@define-color base01 #121212;
+@define-color base02 #222222;
+@define-color base03 #333333;
+@define-color base04 #505754;
+@define-color base05 #b3beb8;
+@define-color base06 #c1c1c1;
+@define-color base07 #dae9e2;
+@define-color base08 #5f8787;
+@define-color base09 #8f9995;
+@define-color base0A #79241f;
+@define-color base0B #974b46;
+@define-color base0C #505754;
+@define-color base0D #5f8787;
+@define-color base0E #363c3a;
+@define-color base0F #505754;
+/* End flavours */
+
+#bar.container,
+#ironbar.background {
+  font-family:
+    desertedttf,
+    JetBrainsMono Nerd Font,
+    Noto Sans CJK Regular,
+    sans;
+  font-weight: normal;
+  background-color: @base00;
+  color: @base04;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+#bar #start,
+#bar #center,
+#bar #end {
+  background-color: @base00;
+  border-radius: 18px;
+}
+
+.separator {
+  margin: 0px 10px;
+  color: @base02;
+}
+
+.popup {
+  font-family:
+    desertedttf,
+    BlexMono Nerd Font,
+    sans;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 6px;
+  padding: 25px;
+  border: 2px solid @base01;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* -- Clock -- */
+.clock {
+  font-weight: normal;
+  font-family: groundedttf;
+  background-color: @base08;
+  color: @base00;
+  border-radius: 0px 5px 5px 0px;
+  margin: 4px 4px 4px 0px;
+  padding: 0px 12px;
+}
+
+.popup-clock .calendar-clock {
+  color: @base08;
+  margin-bottom: 20px;
+  font-family: groundedttf;
+  font-size: 32px;
+}
+
+.popup-clock .calendar {
+  color: @base05;
+  font-size: 16px;
+  padding: 6px;
+}
+
+/* -- Upower -- */
+.upower {
+  font-weight: normal;
+  background-color: @base00;
+  color: @base04;
+  border: 1px solid @base03;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+  margin: 4px 0px 4px 4px;
+  padding: 0px 12px;
+}
+
+/* -- Power menu widget -- */
+#power-button {
+  margin: 2px 0px 2px 2px;
+  padding: 0px 17px 0px 13px;
+  border-radius: 5px;
+  background-color: @base0A;
+  color: @base00;
+}
+
+#header {
+  font-family: beachedttf;
+  font-size: 20px;
+  margin: 25px 0 10px 25px;
+}
+
+/* -- Workspaces -- */
+.workspaces {
+  all: unset;
+  font-family: beachedttf;
+  background-color: @base00;
+  border: 1px solid @base02;
+  border-radius: 5px;
+  margin: 4px 0px 4px 0px;
+}
+
+.workspaces .item {
+  all: unset;
+  border-radius: inherit;
+  font-size: 14px;
+  background-color: transparent;
+  padding: 0px 13px;
+}
+
+.workspaces .visible {
+  color: @base05;
+}
+
+.workspaces .focused {
+  padding: 0px 30px;
+  background-color: @base01;
+}
+
+.workspaces .inactive {
+  color: @base02;
+}
+
+.workspaces .item:hover {
+  background-color: @base01;
+}
