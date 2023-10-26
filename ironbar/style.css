@@ -18,8 +18,12 @@
 @define-color base0F #505754;
 /* End flavours */
 
+#ironbar.background {
+}
+
 #bar.container,
 #ironbar.background {
+  border: solid 1px @base03;
   font-family:
     desertedttf,
     JetBrainsMono Nerd Font,

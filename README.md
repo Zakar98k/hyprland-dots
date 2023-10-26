@@ -2,6 +2,8 @@
 
 the `~/.config` for my Hyprland configuration. I made this repo so I can have a backup of my config files, but also so that others can take a look and copy them if they want.
 
+Wallpapers can be found [here (link)](ttps://github.com/Zakar98k/wallpapers). I made a seperate wallpaper repo cause I don't want people to clone 100+ mbs just for some config files.
+
 ## Software/Programs used
 
 - **Status Bar** - Ironbar
@@ -38,8 +40,8 @@ Can't have config repo without some obnoxious looking screenshots.
 
 ## TO-DO
 
-- [ ] SwayOSD
-- [ ] Copy firefox config to `~/.config` and symlink it to where it was originally
+- [x] wob
+- [x] Copy firefox config to `~/.config` and symlink it to where it was originally
 - [ ] Ironbar
   - [ ] Configure revealer to reveal system info
   - [ ] Configure custom volume module

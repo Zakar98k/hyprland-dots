@@ -59,7 +59,7 @@
   --selected-indicator: #505754;
   --hover-indicator: #ffffff;
   --font: Titillium, Noto Sans CJK Regular, Noto Color Emoji, BlexMono Nerd Font;
-  --code-font: BlexMono Nerd Font;
+  --code-font: BlexMono Nerd Font, Roboto Mono, IBM Plex Mono, monospace;
   --boost-bar: none;
 }
 
