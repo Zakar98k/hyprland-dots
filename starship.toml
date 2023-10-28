@@ -1,7 +1,7 @@
 # Use custom format:
-format="$directory$git_branch\n$character"
+format="$directory$git_branch$git_status\n$character"
 palette = 'base16'
-add_newline = true
+add_newline = false
 
 # Prompt symbols 
 [character]
@@ -10,15 +10,20 @@ add_newline = true
 # vicmd_symbol = "[🞈](fg:yellow)"
 success_symbol = "[>>>](fg:base10)"
 error_symbol = "[>>>](fg:base08)"
-vicmd_symbol = "[>>>](fg:base09)"
+vicmd_symbol = "[<<<](fg:base09)"
 
 [directory]
-format = "[[$path](bold fg:base13)]($style) "
-style = ""
+format = "[󰉋](fg:base13) [$path](bold base04)"
+home_symbol= ""
 
 [git_branch]
-format = "[]($style)[[ ](bg:yellow fg:black bold)$branch](bg:yellow fg:black)[ ]($style)"
-style = "fg:yellow"
+format = " [ $branch](bold base10)"
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
 
 # Start flavours
 # base16 Base16 Yami colorscheme for starship
