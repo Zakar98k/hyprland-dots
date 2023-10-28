@@ -5,7 +5,7 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "Ultra.theme.css"
+        "biscuit-dark.themes.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -469,6 +469,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1698306766909
+        "settingsSyncVersion": 1698475903703
     }
 }

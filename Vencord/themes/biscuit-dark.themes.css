@@ -6,27 +6,30 @@
  * @BDEditor DiscordRecolor
 */
 
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
 
 :root {
-  --accentcolor: 117,109,148;
-  --accentcolor2: 174,63,130;
-  --linkcolor: 118,143,128;
-  --mentioncolor: 227,156,69;
-  --textbrightest: 255,233,199;
-  --textbrighter: 255,233,199;
-  --textbright: 255,233,199;
-  --textdark: 220,201,188;
-  --textdarker: 156,129,129;
-  --textdarkest: 156,129,129;
-  --font: Titillium, Google Sans, Noto Sans CJK Regular, Noto Color Emoji, BlexMono Nerd Font;
-  --backgroundaccent: 45,36,36;
-  --backgroundprimary: 26,21,21;
-  --backgroundsecondary: 45,36,36;
-  --backgroundsecondaryalt: 69,54,54;
-  --backgroundtertiary: 26,21,21;
-  --backgroundfloating: 45,36,36;
+  /* Start flavours */
+  --accentcolor: 117, 109, 148;
+  --accentcolor2: 174, 63, 130;
+  --linkcolor: 118, 143, 128;
+  --mentioncolor: 227, 156, 69;
+  --textbrightest: 255, 233, 199;
+  --textbrighter: 255, 233, 199;
+  --textbright: 255, 233, 199;
+  --textdark: 220, 201, 188;
+  --textdarker: 156, 129, 129;
+  --textdarkest: 156, 129, 129;
+  --backgroundaccent: 34, 34, 34;
+  --backgroundprimary: 0, 0, 0;
+  --backgroundsecondary: 10, 10, 10;
+  --backgroundsecondaryalt: 18, 18, 18;
+  --backgroundtertiary: 0, 0, 0;
+  --backgroundfloating: 18, 18, 18;
   --settingsicons: 1;
+  /* End flavours */
+  --font: Titillium, Google Sans, Noto Sans CJK Regular, Noto Color Emoji,
+    BlexMono Nerd Font;
 }
 
 /* Any custom CSS below here */
