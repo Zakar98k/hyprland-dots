@@ -1,5 +1,5 @@
 # Use custom format:
-format="$directory$git_branch$git_status\n$character"
+format="┌ $directory$git_branch$git_status\n└ $character"
 palette = 'base16'
 add_newline = false
 
@@ -13,17 +13,23 @@ error_symbol = "[>>>](fg:base08)"
 vicmd_symbol = "[<<<](fg:base09)"
 
 [directory]
-format = "[󰉋](fg:base13) [$path](bold base04)"
-home_symbol= ""
+format = "[$read_only]($read_only_style)[$path](base13)"
+truncation_length = 4
+home_symbol= "~"
+read_only="󰌾 "
+read_only_style="base08"
 
 [git_branch]
-format = " [ $branch](bold base10)"
+format = " [ $branch](base10) "
 
 [git_status]
-format = '([\[$all_status$ahead_behind\]]($style) )'
-ahead = '⇡${count}'
-diverged = '⇕⇡${ahead_count}⇣${behind_count}'
-behind = '⇣${count}'
+format = '([\[$ahead_behind$untracked$staged\]]($style) )'
+style = "base04"
+ahead = '$count+'
+diverged = '$ahead_count+ $behind_count-'
+behind = '$count-'
+untracked = " $count?"
+staged = " $count++"
 
 # Start flavours
 # base16 Base16 Yami colorscheme for starship
