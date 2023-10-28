@@ -25,11 +25,11 @@ format = " [ $branch](base10) "
 [git_status]
 format = '([\[$ahead_behind$untracked$staged\]]($style) )'
 style = "base04"
-ahead = '$count+'
-diverged = '$ahead_count+ $behind_count-'
-behind = '$count-'
-untracked = " $count?"
-staged = " $count++"
+ahead = 'a$count'
+diverged = 'a$ahead_count b$behind_count'
+behind = 'b$count'
+untracked = "u$count"
+staged = "+$count"
 
 # Start flavours
 # base16 Base16 Yami colorscheme for starship
