@@ -54,3 +54,8 @@ EOS-greeter.conf
 alacritty/
 reflector-simple-free-params.txt
 systemd/
+gh/
+mpd/
+eww/
+wofi/
+waybar/

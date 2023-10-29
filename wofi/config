@@ -1,7 +1,0 @@
-mode=drun
-normal_window=true
-color=/home/zach/.config/wofi/colors
-lines=25
-columns=2
-allow_images=false
-width=35%
