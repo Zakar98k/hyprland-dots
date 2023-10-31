@@ -6,15 +6,15 @@ Wallpapers can be found [here (link)](https://github.com/Zakar98k/wallpapers). I
 
 ## Software/Programs used
 
-- **Status Bar** - Ironbar
+- **Status Bar** - [Ironbar](https://github.com/JakeStanger/ironbar)
 - **Notification Daemon** - Mako (to be replaced by swaync)
 - **Terminal** - wezterm and foot
 - **Base16 Theming** - [flavours](https://github.com/Misterio77/flavours). I theme virtually everything that can be injected with color codes, using my own custom theme based on Base16 Black Metal.
 - **Web Browser** - firefox with [penguinFox](https://github.com/p3nguin-kun/penguinFox) css
-- **App launcher & More** - rofi
+- **App launcher & More** - [rofi-lbonn-wayland-git](https://github.com/lbonn/rofi) (rofi wayland fork)
 - **Text Editor** - [neovim](https://neovim.io/) and [neovide](https://neovide.dev/) with the [lazy](https://github.com/folke/lazy.nvim) plugin manager
-- **File Manager** - nautilus and [lf](https://github.com/gokcehan/lf)
-- **Login Manager** - default tty
+- **File Manager** - nautilus and [yazi](https://github.com/sxyazi/yazi)
+- **Login Manager** - default tty. I've found that other login managers behave weirdly with Hyprland
 
 ### Firefox
 
