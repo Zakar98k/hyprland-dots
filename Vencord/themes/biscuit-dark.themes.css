@@ -10,16 +10,16 @@
 
 :root {
   /* Start flavours */
-  --accentcolor: 117, 109, 148;
-  --accentcolor2: 174, 63, 130;
-  --linkcolor: 118, 143, 128;
-  --mentioncolor: 227, 156, 69;
-  --textbrightest: 255, 233, 199;
-  --textbrighter: 255, 233, 199;
-  --textbright: 255, 233, 199;
-  --textdark: 220, 201, 188;
-  --textdarker: 156, 129, 129;
-  --textdarkest: 156, 129, 129;
+  --accentcolor: 95, 135, 135;
+  --accentcolor2: 151, 75, 70;
+  --linkcolor: 95, 135, 135;
+  --mentioncolor: 121, 36, 31;
+  --textbrightest: 218, 233, 226;
+  --textbrighter: 193, 193, 193;
+  --textbright: 193, 193, 193;
+  --textdark: 179, 190, 184;
+  --textdarker: 179, 190, 184;
+  --textdarkest: 80, 87, 84;
   --backgroundaccent: 34, 34, 34;
   --backgroundprimary: 0, 0, 0;
   --backgroundsecondary: 10, 10, 10;
@@ -28,7 +28,7 @@
   --backgroundfloating: 18, 18, 18;
   --settingsicons: 1;
   /* End flavours */
-  --font: Titillium, Google Sans, Noto Sans CJK Regular, Noto Color Emoji,
+  --font: IBM Plex Sans, Product Sans, Noto Sans CJK Regular, Noto Color Emoji,
     BlexMono Nerd Font;
 }
 
