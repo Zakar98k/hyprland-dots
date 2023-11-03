@@ -19,11 +19,12 @@
 /* End flavours */
 
 #ironbar.background {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #bar.container,
 #ironbar.background {
-  border: solid 1px @base03;
+  border: solid 2px @base03;
   font-family:
     desertedttf,
     JetBrainsMono Nerd Font,
@@ -33,14 +34,12 @@
   background-color: @base00;
   color: @base04;
   font-size: 16px;
-  border-radius: 8px;
 }
 
 #bar #start,
 #bar #center,
 #bar #end {
   background-color: @base00;
-  border-radius: 18px;
 }
 
 .separator {

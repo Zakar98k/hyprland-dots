@@ -45,71 +45,70 @@ config.inactive_pane_hsb = {
 -- ### COLOR CONFIG ### ---
 config.colors = {
 	-- Start flavours
-  foreground = '#b3beb8',
-  background = '#000000',
+	foreground = "#b3beb8",
+	background = "#000000",
 
-  cursor_bg = '#b3beb8',
-  cursor_fg = '#000000',
+	cursor_bg = "#b3beb8",
+	cursor_fg = "#000000",
 
-  cursor_border = '#b3beb8',
+	cursor_border = "#b3beb8",
 
-  scrollbar_thumb = '#333333',
-  split = '#121212',
+	scrollbar_thumb = "#333333",
+	split = "#121212",
 
-  ansi = {
-    '#000000',
-    '#5f8787',
-    '#974b46',
-    '#79241f',
-    '#5f8787',
-    '#363c3a',
-    '#505754',
-    '#b3beb8',
-  },
-  brights = {
-    '#000000',
-    '#5f8787',
-    '#974b46',
-    '#79241f',
-    '#5f8787',
-    '#363c3a',
-    '#505754',
-    '#dae9e2',
-  },
+	ansi = {
+		"#000000",
+		"#5f8787",
+		"#974b46",
+		"#79241f",
+		"#5f8787",
+		"#363c3a",
+		"#505754",
+		"#b3beb8",
+	},
+	brights = {
+		"#000000",
+		"#5f8787",
+		"#974b46",
+		"#79241f",
+		"#5f8787",
+		"#363c3a",
+		"#505754",
+		"#dae9e2",
+	},
 
-  compose_cursor = '#8f9995',
+	compose_cursor = "#8f9995",
 
-  tab_bar = {
-    background = "#000000",
-    active_tab = {
-      bg_color = "#121212",
-      fg_color = "#b3beb8",
-      intensity = 'Normal',
-      underline = 'Single',
-      italic = true,
-    },
+	tab_bar = {
+		background = "#000000",
+		active_tab = {
+			bg_color = "#121212",
+			fg_color = "#b3beb8",
+			intensity = "Normal",
+			underline = "Single",
+			italic = true,
+		},
 
+		inactive_tab = {
+			bg_color = "#000000",
+			fg_color = "#505754",
+		},
 
-    inactive_tab = {
-      bg_color = "#000000",
-      fg_color = "#505754",
-    },
+		inactive_tab_hover = {
+			bg_color = "#121212",
+			fg_color = "#505754",
+		},
 
-    inactive_tab_hover = {
-      bg_color = "#121212",
-      fg_color = "#505754",
-    },
+		new_tab = {
+			bg_color = "#79241f",
+			fg_color = "#000000",
+		},
 
-    new_tab = {
-      bg_color = "#79241f",
-      fg_color = "#000000",
-    },
-
-    new_tab_hover = {
-      bg_color = "#974b46",
-      fg_color = "#000000",
-    },
-  }
+		new_tab_hover = {
+			bg_color = "#974b46",
+			fg_color = "#000000",
+		},
+	},
 	-- End flavours
 }
 
