@@ -5,17 +5,17 @@
 @define-color base02 #222222;
 @define-color base03 #333333;
 @define-color base04 #505754;
-@define-color base05 #b3beb8;
-@define-color base06 #c1c1c1;
-@define-color base07 #dae9e2;
-@define-color base08 #5f8787;
-@define-color base09 #8f9995;
-@define-color base0A #79241f;
-@define-color base0B #974b46;
-@define-color base0C #505754;
-@define-color base0D #5f8787;
-@define-color base0E #363c3a;
-@define-color base0F #505754;
+@define-color base05 #c1c1c1;
+@define-color base06 #dedede;
+@define-color base07 #eaeaea;
+@define-color base08 #824655;
+@define-color base09 #8f534d;
+@define-color base0A #827d50;
+@define-color base0B #468264;
+@define-color base0C #327d7d;
+@define-color base0D #326482;
+@define-color base0E #645078;
+@define-color base0F #785d50;
 /* End flavours */
 
 #ironbar.background {

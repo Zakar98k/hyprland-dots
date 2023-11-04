@@ -18,8 +18,8 @@ return {
           markdown = true,
         },
         -- Start flavours
-        -- Base16 Colorscheme: Base16 Yami
-        -- Author: Zakar98k (https://github.com/Zakar98k)
+        -- Base16 Colorscheme: Sakura Stardust
+        -- Author: Stardust-kyun (https://github.com/Stardust-kyun/dotfiles)
         color_overrides = {
           mocha = {
             base = "#000000",
@@ -33,22 +33,22 @@ return {
             overlay2 = "#333333",
             subtext0 = "#505754",
             subtext1 = "#505754",
-            text = "#b3beb8",
+            text = "#c1c1c1",
 
-            rosewater = "#5f8787",
+            rosewater = "#824655",
             flamingo = "#333333",
             pink = "#505754",
-            red = "#79241f",
-            maroon = "#79241f",
-            peach = "#505754",
-            yellow = "#79241f",
-            green = "#8f9995",
-            teal = "#b3beb8",
-            sky = "#b3beb8",
+            red = "#827d50",
+            maroon = "#827d50",
+            peach = "#327d7d",
+            yellow = "#827d50",
+            green = "#8f534d",
+            teal = "#c1c1c1",
+            sky = "#c1c1c1",
             sapphire = "#505754",
-            blue = "#5f8787",
-            lavender = "#974b46",
-            mauve = "#79241f",
+            blue = "#326482",
+            lavender = "#468264",
+            mauve = "#827d50",
           },
         },
         -- End flavours
