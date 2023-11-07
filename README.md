@@ -35,8 +35,15 @@ ln -sf $HOME/.config/firefox/user.js $HOME/.mozilla/firefox/*.default-release/
 ## Screenshots
 
 Can't have config repo without some obnoxious looking screenshots.
-![neofetch](/screenshots/neofetch.png)
-![tiled](/screenshots/tiled.png)
+
+### Yami
+
+![neofetch](/screenshots/yami-1.png)
+![tiled](/screenshots/yami-2.png)
+
+### Mountain Darker
+
+![ncmpcpp-cava-ttyclock](/screenshots/mountain-darker-1.png)
 
 ## TO-DO
 
