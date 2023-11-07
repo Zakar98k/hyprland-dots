@@ -1,0 +1,25 @@
+sw_volume: 100
+audio_device_state:1:default detected output
+state: play
+current: 2
+time: 156.587000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:blessthefall - Hollow Bodies/Exodus [GXdvIe8W9uc].opus
+1:blessthefall - Hollow Bodies/You Wear A Crown But You're No King [BiR0N_MirhQ].opus
+2:blessthefall - Hollow Bodies/Hollow Bodies [1rCTjGmT7oc].opus
+3:blessthefall - Hollow Bodies/Déjà Vu [xehNyIFPrE4].opus
+4:blessthefall - Hollow Bodies/Buried In These Walls [nwYnhLv9zW0].opus
+5:blessthefall - Hollow Bodies/See You On The Outside [kQ_roJ_qe2Y].opus
+6:blessthefall - Hollow Bodies/Youngbloods [_uEPFbmrIps].opus
+7:blessthefall - Hollow Bodies/Standing On The Ashes [IzaYT-IhkCc].opus
+8:blessthefall - Hollow Bodies/Carry On [wMmZej8hu_w].opus
+9:blessthefall - Hollow Bodies/The Sound Of Starting Over [epP8NX01J3Y].opus
+10:blessthefall - Hollow Bodies/Open Water [AEfUv13EuKI].opus
+playlist_end

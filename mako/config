@@ -19,22 +19,22 @@ layer=overlay
 anchor=top-left
 
 # Start flavours
-## Base16 Paradise Darker
+## Base16 Mountain Darker
 # Author: gnsfujiwara (https://github.com/gnsfujiwara)
 #
 # You can use these variables anywhere in the mako configuration file.
 
 background-color=#000000dd
 text-color=#cacacadd
-border-color=#8e6eaadd
+border-color=#ac8a8cdd
 
 [urgency=low]
 background-color=#000000bb
-text-color=#8e6eaabb
-border-color=#8e6eaabb
+text-color=#ac8a8cbb
+border-color=#ac8a8cbb
 
 [urgency=high]
 background-color=#000000ff
-text-color=#b66467ff
-border-color=#8e6eaaff
+text-color=#ac8a8cff
+border-color=#ac8a8cff
 # End flavours
