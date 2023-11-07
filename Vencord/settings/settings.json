@@ -5,7 +5,8 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "biscuit-dark.themes.css"
+        "biscuit-dark.themes.css",
+        "HorizontalServerList.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -120,7 +121,9 @@
             "enabled": true
         },
         "CustomRPC": {
-            "enabled": false
+            "enabled": false,
+            "type": 0,
+            "timestampMode": 0
         },
         "Dearrow": {
             "enabled": false
@@ -132,7 +135,8 @@
             "enabled": false
         },
         "Experiments": {
-            "enabled": false
+            "enabled": false,
+            "enableIsStaff": false
         },
         "F8Break": {
             "enabled": false
@@ -185,7 +189,14 @@
             "enabled": false
         },
         "ImageZoom": {
-            "enabled": false
+            "enabled": false,
+            "saveZoomValues": true,
+            "invertScroll": true,
+            "nearestNeighbour": false,
+            "square": false,
+            "zoom": 2,
+            "size": 100,
+            "zoomSpeed": 0.5
         },
         "InvisibleChat": {
             "enabled": false,
@@ -198,7 +209,8 @@
             "enabled": false
         },
         "LoadingQuotes": {
-            "enabled": false
+            "enabled": false,
+            "replaceEvents": true
         },
         "MemberCount": {
             "enabled": false
@@ -219,13 +231,18 @@
             "enabled": false
         },
         "MoreKaomoji": {
-            "enabled": false
+            "enabled": true
         },
         "MoreUserTags": {
             "enabled": false
         },
         "Moyai": {
-            "enabled": false
+            "enabled": false,
+            "volume": 0.5,
+            "quality": "Normal",
+            "triggerWhenUnfocused": true,
+            "ignoreBots": true,
+            "ignoreBlocked": true
         },
         "MuteNewGuild": {
             "enabled": false
@@ -282,7 +299,7 @@
             "enabled": false
         },
         "petpet": {
-            "enabled": false
+            "enabled": true
         },
         "PictureInPicture": {
             "enabled": false
@@ -345,7 +362,11 @@
             "enabled": false
         },
         "ShikiCodeblocks": {
-            "enabled": false
+            "enabled": false,
+            "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/dark-plus.json",
+            "tryHljs": "SECONDARY",
+            "useDevIcon": "GREYSCALE",
+            "bgOpacity": 100
         },
         "ShowAllMessageButtons": {
             "enabled": false
@@ -366,7 +387,9 @@
             "enabled": false
         },
         "SilentTyping": {
-            "enabled": false
+            "enabled": true,
+            "showIcon": true,
+            "isEnabled": true
         },
         "SortFriendRequests": {
             "enabled": false
@@ -399,7 +422,10 @@
             "enabled": false
         },
         "TypingTweaks": {
-            "enabled": false
+            "enabled": true,
+            "showAvatars": true,
+            "showRoleColors": true,
+            "alternativeFormatting": true
         },
         "Unindent": {
             "enabled": false
@@ -441,7 +467,7 @@
             "enabled": false
         },
         "WhoReacted": {
-            "enabled": false
+            "enabled": true
         },
         "Wikisearch": {
             "enabled": false
@@ -469,6 +495,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1698475903703
+        "settingsSyncVersion": 1699319866766
     }
 }

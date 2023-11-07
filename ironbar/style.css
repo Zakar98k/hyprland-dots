@@ -8,14 +8,14 @@
 @define-color base05 #cacaca;
 @define-color base06 #e7e7e7;
 @define-color base07 #f0f0f0;
-@define-color base08 #ac8a8c;
-@define-color base09 #ceb188;
-@define-color base0A #aca98a;
-@define-color base0B #8aac8b;
-@define-color base0C #8aabac;
-@define-color base0D #8f8aac;
-@define-color base0E #ac8aac;
-@define-color base0F #ac8a8c;
+@define-color base08 #b66467;
+@define-color base09 #bf8471;
+@define-color base0A #d9bc8c;
+@define-color base0B #8c977d;
+@define-color base0C #8aa6a2;
+@define-color base0D #8da3b9;
+@define-color base0E #a988b0;
+@define-color base0F #8e6eaa;
 /* End flavours */
 
 #ironbar.background {

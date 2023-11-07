@@ -18,7 +18,7 @@ return {
           markdown = true,
         },
         -- Start flavours
-        -- Base16 Colorscheme: Mountain Darker
+        -- Base16 Colorscheme: Paradise Darker
         -- Author: gnsfujiwara (https://github.com/gnsfujiwara)
         color_overrides = {
           mocha = {
@@ -35,20 +35,20 @@ return {
             subtext1 = "#333333",
             text = "#cacaca",
 
-            rosewater = "#ac8a8c",
+            rosewater = "#b66467",
             flamingo = "#222222",
             pink = "#333333",
-            red = "#aca98a",
-            maroon = "#aca98a",
-            peach = "#8aabac",
-            yellow = "#aca98a",
-            green = "#ceb188",
+            red = "#d9bc8c",
+            maroon = "#d9bc8c",
+            peach = "#8aa6a2",
+            yellow = "#d9bc8c",
+            green = "#bf8471",
             teal = "#cacaca",
             sky = "#cacaca",
             sapphire = "#333333",
-            blue = "#8f8aac",
-            lavender = "#8aac8b",
-            mauve = "#aca98a",
+            blue = "#8da3b9",
+            lavender = "#8c977d",
+            mauve = "#d9bc8c",
           },
         },
         -- End flavours
