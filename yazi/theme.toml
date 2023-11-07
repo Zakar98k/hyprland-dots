@@ -92,9 +92,9 @@ active   = { bg = "darkgray" }
 inactive = {}
 
 # Icons
-icon_file    = ""
-icon_folder  = ""
-icon_command = ""
+icon_file    = "󰈔"
+icon_folder  = ""
+icon_command = ""
 
 # : }}}
 
@@ -140,7 +140,7 @@ footer  = { fg = "black", bg = "white" }
 
 rules = [
 	# Images
-	{ mime = "image/*", fg = "cyan" },
+	{ mime = "image/*", fg = "lightblue" },
 
 	# Videos
 	{ mime = "video/*", fg = "yellow" },
@@ -162,16 +162,16 @@ rules = [
 
 [icons]
  
-"Desktop/"     = " "
-"Documents/"   = " "
-"Downloads/"   = " "
-"Pictures/"    = " "
-"Music/"       = " "
-"Movies/"      = " "
-"Videos/"      = " "
-"Public/"      = " "
-"Library/"     = " "
-"Development/" = " "
+"Desktop/"     = "󰌢 "
+"Documents/"   = "󱧶 "
+"Downloads/"   = "󰉍 "
+"Pictures/"    = "󰉏 "
+"Music/"       = "󱍙 "
+"Movies/"      = "󰈰 "
+"Videos/"      = "󱧺 "
+"Public/"      = "󰉌 "
+# "Library/"     = " "
+# "Development/" = " "
 ".config/"     = " "
 
 # Git
@@ -200,15 +200,17 @@ rules = [
 "*.7z"  = " "
 
 # Audio
-"*.mp3"  = " "
-"*.flac" = " "
-"*.wav"  = " "
+"*.mp3"  = " "
+"*.flac" = " "
+"*.wav"  = " "
+"*.opus"  =" "
 
 # Movies
-"*.mp4" = " "
-"*.mkv" = " "
-"*.avi" = " "
-"*.mov" = " "
+"*.mp4" = "󰕧 "
+"*.mkv" = "󰕧 "
+"*.avi" = "󰕧 "
+"*.mov" = "󰕧 "
+"*.webm" = "󰕧 "
 
 # Images
 "*.jpg"  = " "
@@ -235,14 +237,14 @@ rules = [
 "*.jsx"   = " "
 "*.rb"    = " "
 "*.php"   = " "
-"*.java"  = " "
+"*.java"  = " "
 "*.sh"    = " "
 "*.fish"  = " "
 "*.swift" = " "
 "*.vim"   = " "
 "*.lua"   = " "
 "*.html"  = " "
-"*.css"   = " "
+"*.css"   = " "
 "*.scss"  = " "
 "*.json"  = " "
 "*.toml"  = " "
@@ -250,9 +252,18 @@ rules = [
 "*.yaml"  = " "
 "*.ini"   = " "
 "*.conf"  = " "
+"*.cfg"  = " "
+
+## Godot
+"*.gd"  = " "
+"*.tscn"  = "󰈰 "
+
+## Other
+"*.aseprite"  = "󰏫 "
+"PKGBUILD"  = "󰏓 "
 
 # Default
-"*"  = " "
-"*/" = " "
+"*"  = "󰈔 "
+"*/" = " "
 
 # : }}}
