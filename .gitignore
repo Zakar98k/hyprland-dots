@@ -1,6 +1,6 @@
 *.log
 *.bak
-btop/
+btop.log
 htop/
 Thunar/
 aseprite/
@@ -59,7 +59,7 @@ eww/
 wofi/
 waybar/
 MusicBrainz/
-mpd/state
+state
 gomp/
 menus/
 mods/

@@ -58,6 +58,12 @@ file= "~/.config/cava/config"
 template = "cava"
 hook = "pkill -USR2 cava"
 
+[[item]]
+file="~/.config/btop/themes/current-base16.theme"
+template="btop"
+rewrite=true
+hook="pkill -USR2 btop"
+
 # [[item]]
 # file= "~/.config/wal/colorschemes/dark/current.json"
 # template = "pywal"
