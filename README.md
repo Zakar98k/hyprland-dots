@@ -13,8 +13,11 @@ Wallpapers can be found [here (link)](https://github.com/Zakar98k/wallpapers). I
 - **Web Browser** - firefox with [penguinFox](https://github.com/p3nguin-kun/penguinFox) css
 - **App launcher & More** - [rofi-lbonn-wayland-git](https://github.com/lbonn/rofi) (rofi wayland fork)
 - **Text Editor** - [neovim](https://neovim.io/) and [neovide](https://neovide.dev/) with the [lazy](https://github.com/folke/lazy.nvim) plugin manager
-- **File Manager** - nautilus and [yazi](https://github.com/sxyazi/yazi)
+- **File Manager** - nautilus for GUI and [yazi](https://github.com/sxyazi/yazi) for the terminal
 - **Login Manager** - default tty. I've found that other login managers behave weirdly with Hyprland
+- **Custom Terminal Prompt** - [starship](https://starship.rs/)
+- **Music Player** - [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) with [mpd](https://github.com/MusicPlayerDaemon/MPD)
+- **Volume and Brightness Overlay** - [avizo](https://github.com/misterdanb/avizo)
 
 ### Firefox
 
