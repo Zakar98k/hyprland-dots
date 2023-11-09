@@ -6,7 +6,8 @@
     "themeLinks": [],
     "enabledThemes": [
         "biscuit-dark.themes.css",
-        "HorizontalServerList.theme.css"
+        "HorizontalServerList.theme.css",
+        "discord-recolor.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -495,6 +496,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1699319866766
+        "settingsSyncVersion": 1699350721525
     }
 }

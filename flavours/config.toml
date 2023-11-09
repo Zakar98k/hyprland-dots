@@ -1,9 +1,9 @@
 shell = "bash -c '{}'"
 
-# [[item]]
-# file = "~/.config/alacritty/alacritty.yml"
-# template = "alacritty"
-# subtemplate = "default-256"
+[[item]]
+file = "~/.config/alacritty/alacritty.yml"
+template = "alacritty"
+subtemplate = "default"
 
 [[item]]
 file = "~/.config/foot/foot.ini"
@@ -63,6 +63,12 @@ file="~/.config/btop/themes/current-base16.theme"
 template="btop"
 rewrite=true
 # hook="pkill -USR2 btop"
+
+[[item]]
+file="~/repos/theme.sh/themes/current"
+template="theme.sh"
+rewrite=true
+hook="pkill -USR1 zsh"
 
 # [[itew]]
 # file= "~/.config/wal/colorschemes/dark/current.json"
