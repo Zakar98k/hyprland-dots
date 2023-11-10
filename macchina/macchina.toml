@@ -56,8 +56,8 @@ disk_space_percentage = false
 #   show = ["Battery", "Memory", ...]
 show = [
   "Machine",
-  "Processor",
-  "GPU",
+  # "Processor",
+  # "GPU",
   "Distribution",
   "Packages",
   "Terminal",

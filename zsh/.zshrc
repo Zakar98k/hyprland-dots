@@ -1,7 +1,8 @@
-$HOME/repos/theme.sh/bin/theme.sh current
 
 export PATH=$PATH:$HOME/.local/bin/
 export PATH=$PATH:$HOME/.cargo/bin/
+
+theme.sh current
 
 # Created by newuser for 5.9
 autoload -U colors && colors
