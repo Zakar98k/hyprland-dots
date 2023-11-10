@@ -1,6 +1,7 @@
 $HOME/repos/theme.sh/bin/theme.sh current
 
 export PATH=$PATH:$HOME/.local/bin/
+export PATH=$PATH:$HOME/.cargo/bin/
 
 # Created by newuser for 5.9
 autoload -U colors && colors
@@ -47,9 +48,6 @@ add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 
 # For changing term colorschemes
 TRAPUSR1() {
-  cp $HOME/repos/theme.sh/src/theme.sh $HOME/repos/theme.sh/bin/theme.sh
-  $HOME/repos/theme.sh/bin/theme.sh -a $HOME/repos/theme.sh/themes/current
   sleep 1.0
-  $HOME/repos/theme.sh/bin/theme.sh current
+  $HOME/.local/bin/theme.sh current
 }
-
