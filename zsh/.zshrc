@@ -11,6 +11,11 @@ autoload -U colors && colors
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
+# Display something colorful in the terminal.
+# Requires https://gitlab.com/dwt1/shell-color-scripts to be installed.
+colorscripts=("bars" "zwaves" "blocks1" "pinguco" "crunchbang-mini" "panes" "colorwheel")
+colorscript exec ${colorscripts[$(($RANDOM % ${#colorscripts[@]} + 1 ))]}
+
 # Reload the colorscheme for new terminals
 # (cat ~/.cache/wal/sequences &)
 

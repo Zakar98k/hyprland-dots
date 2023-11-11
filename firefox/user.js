@@ -2,7 +2,7 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.memory.enable", true);
 user_pref("browser.cache.memory.capacity", 524288);
-user_pref("browser.sessionstore.interval", 15000000);
+user_pref("browser.sessionstore.interval", 0);
 user_pref("accessibility.force_disabled", 1);
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
 user_pref("browser.uitour.enabled", false);
@@ -93,7 +93,10 @@ user_pref("network.connectivity-service.enabled", false);
 /*** [GEOLOCATION / LANGUAGE / LOCALE ***/
 
 /* use Mozilla geolocation service instead of Google.*/
-user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
+user_pref(
+  "geo.provider.network.url",
+  "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%",
+);
 /* disable using the OS's geolocation service ***/
 user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
 user_pref("geo.provider.use_corelocation", false); // [MAC]
