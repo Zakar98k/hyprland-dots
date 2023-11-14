@@ -19,6 +19,7 @@ end = "-- End flavours"
 file="~/.config/hypr/configs/hyprcolors.conf"
 template="hyprcolors"
 rewrite=true
+hook = "hyprctl reload"
 
 # [[item]]
 # file = "~/.config/waybar/colors.css"

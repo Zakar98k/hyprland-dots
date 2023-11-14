@@ -55,5 +55,5 @@ add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 # For changing term colorschemes
 TRAPUSR1() {
   sleep 1.0
-  $HOME/.local/bin/theme.sh current
+  theme.sh current
 }
