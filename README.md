@@ -53,13 +53,9 @@ Can't have config repo without some obnoxious looking screenshots.
 - [x] wob
 - [x] Copy firefox config to `~/.config` and symlink it to where it was originally
 - [ ] Ironbar
-  - [ ] Configure revealer to reveal system info
-  - [ ] Configure custom volume module
   - [ ] Add disk usage and updates available in power-menu widget
 - [ ] Nvim
-  - [ ] Configure feline.nvim
-  - [ ] Configure nvim-tree
-  - [ ] Configure telescope
+  - [ ] Configure LazyVim
 - [ ] Swaync
   - [ ] Toggle swaync using custom ironabar image module
 

@@ -42,12 +42,18 @@ file= "~/.config/wofi/colors"
 template = "wofi"
 rewrite = true
 
-[[item]]
-file= "~/.config/nvim/lua/zakar98k/plugins/catppuccin.lua"
-template = "catppuccin-nvim"
-subtemplate = "bloody-valentine"
-start = "-- Start flavours"
-end = "-- End flavours"
+# [[item]]
+# file= "~/.config/nvim/lua/zakar98k/plugins/catppuccin.lua"
+# template = "catppuccin-nvim"
+# subtemplate = "bloody-valentine"
+# start = "-- Start flavours"
+# end = "-- End flavours"
+
+# [[item]]
+# file= "~/.config/nvim/lua/custom/plugins/colorscheme.lua"
+# template = "prism.nvim"
+# start = "-- Start flavours"
+# end = "-- End flavours"
 
 [[item]]
 file= "~/.config/starship.toml"

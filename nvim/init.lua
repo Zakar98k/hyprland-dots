@@ -1,12 +1,21 @@
-require("zakar98k.core")
-require("zakar98k.lazy")
+require "core"
 
--- Only applies if Neovide is running
-if vim.g.neovide then
-  vim.o.guifont = "BlexMono Nerd Font:h11:#e-subpixelantialias"
-  vim.g.neovide_scale_factor = 1.0
-  vim.g.neovide_refresh_rate = 60
+local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
+
+if custom_init_path then
+  dofile(custom_init_path)
 end
 
--- vim.cmd.colorscheme("base16-black-metal-venom")
-vim.cmd.colorscheme("catppuccin")
+require("core.utils").load_mappings()
+
+local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
+
+-- bootstrap lazy.nvim!
+if not vim.loop.fs_stat(lazypath) then
+  require("core.bootstrap").gen_chadrc_template()
+  require("core.bootstrap").lazy(lazypath)
+end
+
+dofile(vim.g.base46_cache .. "defaults")
+vim.opt.rtp:prepend(lazypath)
+require "plugins"
