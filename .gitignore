@@ -67,3 +67,6 @@ config2
 pid
 lyrics/
 ncmpcpp/config3
+VSCodium/
+libreoffice/
+atuin/
