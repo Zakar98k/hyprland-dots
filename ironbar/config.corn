@@ -138,7 +138,7 @@ in {
   margin.bottom = 8
   margin.left = 120
 
-  start = [ $power_menu $separator $workspaces ]
+  start = [ $power_menu $separator $workspaces $separator $tray ]
   center = [ $focused  ]
-  end = [ $tray $sys_info_revealer $expand_sys_info $separator $upower $clock ]
+  end = [ $sys_info_revealer $expand_sys_info $separator $upower $clock ]
 }

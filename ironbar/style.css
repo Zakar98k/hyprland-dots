@@ -5,17 +5,17 @@
 @define-color base02 #222222;
 @define-color base03 #333333;
 @define-color base04 #505754;
-@define-color base05 #c1c1c1;
-@define-color base06 #dedede;
-@define-color base07 #eaeaea;
-@define-color base08 #824655;
-@define-color base09 #8f534d;
-@define-color base0A #827d50;
-@define-color base0B #468264;
-@define-color base0C #327d7d;
-@define-color base0D #326482;
-@define-color base0E #645078;
-@define-color base0F #785d50;
+@define-color base05 #b3beb8;
+@define-color base06 #c1c1c1;
+@define-color base07 #dae9e2;
+@define-color base08 #5f8787;
+@define-color base09 #8f9995;
+@define-color base0A #79241f;
+@define-color base0B #974b46;
+@define-color base0C #505754;
+@define-color base0D #5f8787;
+@define-color base0E #363c3a;
+@define-color base0F #505754;
 /* End flavours */
 
 #ironbar.background {
@@ -66,7 +66,7 @@
   font-family: groundedttf;
   background-color: @base08;
   color: @base00;
-  /* border-radius: 0px 5px 5px 0px; */
+  border-radius: 0px 0px 0px 0px;
   margin: 4px 4px 4px 0px;
   padding: 0px 12px;
 }
@@ -90,7 +90,7 @@
   background-color: @base00;
   color: @base04;
   border: 1px solid @base03;
-  /* border-radius: 5px 0px 0px 5px; */
+  border-radius: 0px 0px 0px 0px;
   border-right: none;
   margin: 4px 0px 4px 4px;
   padding: 0px 12px;
@@ -100,7 +100,7 @@
 #power-button {
   margin: 4px 0px 4px 4px;
   padding: 0px 17px 0px 13px;
-  /* border-radius: 5px; */
+  border-radius: 0px;
   background-color: @base0A;
   color: @base00;
 }
@@ -117,13 +117,13 @@
   font-family: beachedttf;
   background-color: @base00;
   border: 1px solid @base02;
-  /* border-radius: 5px; */
+  border-radius: 0px;
   margin: 4px 0px 4px 0px;
 }
 
 .workspaces .item {
   all: unset;
-  /* border-radius: inherit; */
+  border-radius: inherit;
   font-size: 14px;
   background-color: transparent;
   padding: 0px 13px;

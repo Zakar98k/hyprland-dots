@@ -1,6 +1,10 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = { theme = 'flavours' }
+-- Override ui table from 
+M.ui = { 
+  theme = 'flavours',
+  theme_toggle = { 'flavours', 'flavours' },
+}
 
 return M

@@ -32,23 +32,23 @@ untracked = "u$count"
 staged = "+$count"
 
 # Start flavours
-# base16 Sakura Stardust colorscheme for starship
-# Author: Stardust-kyun (https://github.com/Stardust-kyun/dotfiles)
+# base16 Base16 Yami colorscheme for starship
+# Author: Zakar98k (https://github.com/Zakar98k)
 [palettes.base16]
 base00 = '#000000'
 base01 = '#121212'
 base02 = '#222222'
 base03 = '#333333'
 base04 = '#505754'
-base05 = '#c1c1c1'
-base06 = '#dedede'
-base07 = '#eaeaea'
-base08 = '#824655'
-base09 = '#8f534d'
-base10 = '#827d50'
-base11 = '#468264'
-base12 = '#327d7d'
-base13 = '#326482'
-base14 = '#645078'
-base15 = '#785d50'
+base05 = '#b3beb8'
+base06 = '#c1c1c1'
+base07 = '#dae9e2'
+base08 = '#5f8787'
+base09 = '#8f9995'
+base10 = '#79241f'
+base11 = '#974b46'
+base12 = '#505754'
+base13 = '#5f8787'
+base14 = '#363c3a'
+base15 = '#505754'
 # End flavours

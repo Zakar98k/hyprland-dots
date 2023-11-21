@@ -184,8 +184,8 @@ source = auto
 gradient = 1
  gradient_count = 2
 # Start flavours
-gradient_color_1 = '#827d50'
-gradient_color_2 = '#645078'
+gradient_color_1 = '#79241f'
+gradient_color_2 = '#363c3a'
 # End flavours
 
 
