@@ -32,23 +32,23 @@ untracked = "u$count"
 staged = "+$count"
 
 # Start flavours
-# base16 Base16 Yami colorscheme for starship
-# Author: Zakar98k (https://github.com/Zakar98k)
+# base16 Mountain Darker colorscheme for starship
+# Author: gnsfujiwara (https://github.com/gnsfujiwara)
 [palettes.base16]
 base00 = '#000000'
-base01 = '#121212'
-base02 = '#222222'
-base03 = '#333333'
-base04 = '#505754'
-base05 = '#b3beb8'
-base06 = '#c1c1c1'
-base07 = '#dae9e2'
-base08 = '#5f8787'
-base09 = '#8f9995'
-base10 = '#79241f'
-base11 = '#974b46'
-base12 = '#505754'
-base13 = '#5f8787'
-base14 = '#363c3a'
-base15 = '#505754'
+base01 = '#0f0f0f'
+base02 = '#121212'
+base03 = '#222222'
+base04 = '#333333'
+base05 = '#cacaca'
+base06 = '#e7e7e7'
+base07 = '#f0f0f0'
+base08 = '#ac8a8c'
+base09 = '#b99c95'
+base10 = '#aca98a'
+base11 = '#8aac8b'
+base12 = '#8aabac'
+base13 = '#8f8aac'
+base14 = '#ac8aac'
+base15 = '#ac8a8c'
 # End flavours
