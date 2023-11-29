@@ -50,12 +50,10 @@ Can't have config repo without some obnoxious looking screenshots.
 
 ## TO-DO
 
-- [x] wob
-- [x] Copy firefox config to `~/.config` and symlink it to where it was originally
-- [ ] Ironbar
+- [ ] Ironbar Revamp
   - [ ] Add disk usage and updates available in power-menu widget
 - [ ] Nvim
-  - [ ] Configure LazyVim
+  - [ ] Configure NvChad
 - [ ] Swaync
   - [ ] Toggle swaync using custom ironabar image module
 
