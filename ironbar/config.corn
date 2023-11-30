@@ -102,7 +102,7 @@ let {
         widgets = [
           {
             type = "image"
-            src = "/home/zach/.config/ironbar/rei.png"
+            src = "/home/denji/.config/ironbar/rei.png"
             size = 100
             name = "powermenu-image"
           }
@@ -110,8 +110,9 @@ let {
             type = "box"
             orientation = "vertical"
             widgets = [
-              { type = "label" name = "header" label = "God loves all His children equally" }
-              { type = "label" name = "uptime" label = "Uptime: {{30000:uptime -p | cut -d ' ' -f2-}}" }
+              { type = "label" name="header" label = "Till next time" }
+              { type = "label" class="updates" label = "Updates (AUR): {{7200000:yay -Qqu --aur | wc -l}}" }
+              { type = "label" class="updates" label = "Updates (Pacman): {{7200000:checkupdates | wc -l}}" }
             ]
           }
         ]
