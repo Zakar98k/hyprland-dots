@@ -19,22 +19,22 @@ layer=overlay
 anchor=top-left
 
 # Start flavours
-## Base16 Sakura Stardust
-# Author: Stardust-kyun (https://github.com/Stardust-kyun/dotfiles)
+## Base16 Mountain Darker
+# Author: gnsfujiwara (https://github.com/gnsfujiwara)
 #
 # You can use these variables anywhere in the mako configuration file.
 
 background-color=#000000dd
-text-color=#c1c1c1dd
-border-color=#785d50dd
+text-color=#cacacadd
+border-color=#ac8a8cdd
 
 [urgency=low]
 background-color=#000000bb
-text-color=#785d50bb
-border-color=#785d50bb
+text-color=#ac8a8cbb
+border-color=#ac8a8cbb
 
 [urgency=high]
 background-color=#000000ff
-text-color=#824655ff
-border-color=#785d50ff
+text-color=#ac8a8cff
+border-color=#ac8a8cff
 # End flavours
