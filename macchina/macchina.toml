@@ -28,7 +28,7 @@ disk_space_percentage = false
 #  if theme path is /home/foo/.config/macchina/themes/Sodium.toml
 #  theme should be uncommented and set to "Sodium"
 #
-# theme = ""
+theme = "Hydrogen"
 
 # Displays only the specified readouts.
 # Accepted values (case-sensitive):
@@ -55,13 +55,17 @@ disk_space_percentage = false
 # Example:
 #   show = ["Battery", "Memory", ...]
 show = [
+  # "Host",
   "Machine",
   # "Processor",
   # "GPU",
-  "Distribution",
-  "Packages",
-  "Terminal",
+  # "Distribution",
+  "WindowManager",
+  "DesktopEnvironment",
+  # "Terminal",
   "Shell",
   "Uptime",
-  "DiskSpace"
+  "Packages"
+  # "Memory",
+  # "DiskSpace",
 ]

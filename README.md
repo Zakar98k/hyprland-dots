@@ -39,7 +39,7 @@ ln -sf $HOME/.config/firefox/user.js $HOME/.mozilla/firefox/*.default-release/
 
 Can't have config repo without some obnoxious looking screenshots.
 
-### Yami
+### Yami (Old)
 
 ![neofetch](/screenshots/yami-1.png)
 ![tiled](/screenshots/yami-2.png)
@@ -47,6 +47,11 @@ Can't have config repo without some obnoxious looking screenshots.
 ### Mountain Darker
 
 ![ncmpcpp-cava-ttyclock](/screenshots/mountain-darker-1.png)
+
+### Stardust-kyun's Colorscheme
+But with a #000000 background
+
+![nvim-with-clock](/screenshots/stardust-kyun-1.png)
 
 ## TO-DO
 
