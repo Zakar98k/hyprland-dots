@@ -78,7 +78,7 @@ rewrite=true
 # hook="pkill -USR2 btop"
 
 [[item]]
-file="~/.local/bin/theme.sh"
+file="~/.config/.local/bin/theme.sh"
 template="theme.sh"
 hook="pkill -USR1 zsh"
 

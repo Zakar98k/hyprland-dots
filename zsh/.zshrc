@@ -1,6 +1,6 @@
 # Update $PATH by manipulating $path
 typeset -U path PATH
-path=(~/.local/bin ~/.cargo/bin $path)
+path=(~/.local/bin ~/.config/.local/bin/ ~/.cargo/bin $path)
 export PATH
 
 theme.sh current

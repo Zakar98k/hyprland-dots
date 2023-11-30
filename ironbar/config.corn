@@ -33,6 +33,25 @@ let {
     }
   }
 
+  $info = {
+    type = "sys_info"
+
+    interval.memory = 30
+    interval.cpu = 1
+    interval.temps = 5
+    interval.disks = 300
+    interval.networks = 3
+
+    format = [
+      // For intel CPUs, use coretemp-Package-id-0
+      // For AMD, use k10temp_Tccd1
+      "󰍜 {memory_percent}%"
+      "󰘚 {cpu_percent}%" 
+      " {temp_c:coretemp-Package-id-0}c"
+      "  {net_up:wlan0}{net_down:wlan0}"
+    ]
+  }
+
   $expand_sys_info = {
     type = "script"
     mode = "poll"
@@ -140,5 +159,5 @@ in {
 
   start = [ $power_menu $separator $workspaces $separator $tray ]
   center = [ $focused  ]
-  end = [ $sys_info_revealer $expand_sys_info $separator $upower $clock ]
+  end = [ $info $separator $upower $clock ]
 }
