@@ -2,7 +2,10 @@
 
 the `~/.config` for my Hyprland configuration. I made this repo so I can have a backup of my config files, but also so that others can take a look and copy them if they want.
 
-Wallpapers can be found [here (link)](https://github.com/Zakar98k/wallpapers). I made a seperate wallpaper repo cause I don't want people to clone 100+ mbs just for some config files.
+⚠️ FAIR WARNING ⚠️
+These dots aren't really *install* friendly (yet). Don't expect any plug and play stuff here. If you do decide to use them, keep in mind also that they're constantly being updated for fixes and tweaks.
+
+All the wallpapers I use can be found [here (link)](https://github.com/Zakar98k/wallpapers). I made a seperate wallpaper repo cause I don't want people to clone 100+ mbs just for some config files.
 
 ## Software/Programs used
 
@@ -56,11 +59,17 @@ But with a #000000 background
 ## TO-DO
 
 - [ ] Ironbar Revamp
-  - [ ] Add disk usage and updates available in power-menu widget
+  - [x] Add disk usage and updates available in power-menu widget
+  - [ ] Rearrange components into a three-way bar
+  - [ ] Styleeeee it
 - [ ] Nvim
-  - [ ] Configure NvChad
+  - [ ] Make some personal tweaks to NvChad
 - [ ] Swaync
+  - [ ] Configure swaync
   - [ ] Toggle swaync using custom ironabar image module
+- [ ] Rofi
+  - [ ] 
+  - [ ] Wallpaper changing script
 
 <!-- - [x] Add flavours themes and schemes to `flavours/` directory -->
 <!-- - [x] Add wallpapers matching the theme of the desktop -->
