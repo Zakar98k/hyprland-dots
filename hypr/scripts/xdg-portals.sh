@@ -16,12 +16,12 @@ killall xdg-desktop-portal-lxqt
 killall xdg-desktop-portal-wlr
 killall xdg-desktop-portal-gtk
 killall xdg-desktop-portal
-sleep 2
+sleep 1
 
 # start xdg-desktop-portal-hyprland
 /usr/lib/xdg-desktop-portal-hyprland &
-sleep 3
+sleep 2
 
 # start xdg-desktop-portal
 /usr/lib/xdg-desktop-portal &
-sleep 2
+sleep 1

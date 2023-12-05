@@ -26,7 +26,7 @@
 #ironbar.background {
   /* border: solid 3px @base03; */
   font-family:
-    "strandedttf",
+    "Ttyp0 (OTB)",
     JetBrainsMono Nerd Font,
     Noto Sans CJK Regular,
     sans;
@@ -49,7 +49,7 @@
 
 .popup {
   font-family:
-    desertedttf,
+    "Ttyp0 (OTB)",
     BlexMono Nerd Font,
     sans;
   font-weight: normal;
@@ -62,8 +62,8 @@
 
 /* -- Clock -- */
 .clock {
-  font-weight: normal;
-  font-family: groundedttf;
+  font-weight: bold;
+  font-size: 18px;
   background-color: @base08;
   color: @base00;
   border-radius: 0px 0px 0px 0px;

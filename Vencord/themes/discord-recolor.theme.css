@@ -28,8 +28,8 @@
   --backgroundfloating: 18, 18, 18;
   --settingsicons: 1;
   /* End flavours */
-  --font: IBM Plex Sans, Product Sans, Noto Sans CJK Regular, Noto Color Emoji,
-    BlexMono Nerd Font;
+  --font: "Ttyp0 (OTB)", IBM Plex Sans, Noto Sans CJK Regular, Noto Color Emoji,
+    sans;
 }
 
 /* Any custom CSS below here */
