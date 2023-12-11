@@ -45,45 +45,45 @@ config.inactive_pane_hsb = {
 -- ### COLOR CONFIG ### ---
 config.colors = {
 	-- Start flavours
-  foreground = '#cacaca',
+  foreground = '#c1c1c1',
   background = '#000000',
 
-  cursor_bg = '#cacaca',
+  cursor_bg = '#c1c1c1',
   cursor_fg = '#000000',
 
-  cursor_border = '#cacaca',
+  cursor_border = '#c1c1c1',
 
-  scrollbar_thumb = '#3f3f3f',
+  scrollbar_thumb = '#333333',
   split = '#121212',
 
   ansi = {
     '#000000',
-    '#ac8a8c',
-    '#8aac8b',
-    '#aca98a',
-    '#8f8aac',
-    '#ac8aac',
-    '#8aabac',
-    '#cacaca',
+    '#de5daf',
+    '#dbe6a0',
+    '#2dca70',
+    '#8ab8c0',
+    '#a676b5',
+    '#b1dfd8',
+    '#c1c1c1',
   },
   brights = {
     '#000000',
-    '#ac8a8c',
-    '#8aac8b',
-    '#aca98a',
-    '#8f8aac',
-    '#ac8aac',
-    '#8aabac',
-    '#f0f0f0',
+    '#de5daf',
+    '#dbe6a0',
+    '#2dca70',
+    '#8ab8c0',
+    '#a676b5',
+    '#b1dfd8',
+    '#efefef',
   },
 
-  compose_cursor = '#b99c95',
+  compose_cursor = '#a676b5',
 
   tab_bar = {
     background = "#000000",
     active_tab = {
       bg_color = "#121212",
-      fg_color = "#cacaca",
+      fg_color = "#c1c1c1",
       intensity = 'Normal',
       underline = 'Single',
       italic = true,
@@ -92,21 +92,21 @@ config.colors = {
 
     inactive_tab = {
       bg_color = "#000000",
-      fg_color = "#505050",
+      fg_color = "#999999",
     },
 
     inactive_tab_hover = {
       bg_color = "#121212",
-      fg_color = "#505050",
+      fg_color = "#999999",
     },
 
     new_tab = {
-      bg_color = "#aca98a",
+      bg_color = "#2dca70",
       fg_color = "#000000",
     },
 
     new_tab_hover = {
-      bg_color = "#8aac8b",
+      bg_color = "#dbe6a0",
       fg_color = "#000000",
     },
   }

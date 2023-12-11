@@ -3,6 +3,6 @@ Version=1.0
 Type=Application
 Name=ArmCord
 Comment=Discord client for lower end ARM devices.
-Exec=armcord --enable-features=UseOzonePlatform --ozone-platform=wayland
+Exec=armcord --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime
 Icon=armcord
 Categories=Internet;Network;InstantMessaging;

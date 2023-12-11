@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Obsidian
-Exec=/usr/bin/obsidian --enable-features=UseOzonePlatform --ozone-platform=wayland%U
+Exec=/usr/bin/obsidian --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime %U
 Terminal=false
 Type=Application
 Icon=obsidian

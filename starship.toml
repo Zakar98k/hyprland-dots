@@ -32,23 +32,23 @@ untracked = "u$count"
 staged = "+$count"
 
 # Start flavours
-# base16 Mountain Darker colorscheme for starship
-# Author: gnsfujiwara (https://github.com/gnsfujiwara)
+# base16 Dracula Darker colorscheme for starship
+# Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
 [palettes.base16]
 base00 = '#000000'
 base01 = '#121212'
 base02 = '#222222'
-base03 = '#3f3f3f'
-base04 = '#505050'
-base05 = '#cacaca'
-base06 = '#e7e7e7'
-base07 = '#f0f0f0'
-base08 = '#ac8a8c'
-base09 = '#b99c95'
-base10 = '#aca98a'
-base11 = '#8aac8b'
-base12 = '#8aabac'
-base13 = '#8f8aac'
-base14 = '#ac8aac'
-base15 = '#ac8a8c'
+base03 = '#333333'
+base04 = '#999999'
+base05 = '#c1c1c1'
+base06 = '#dedede'
+base07 = '#efefef'
+base08 = '#de5daf'
+base09 = '#a676b5'
+base10 = '#2dca70'
+base11 = '#dbe6a0'
+base12 = '#b1dfd8'
+base13 = '#8ab8c0'
+base14 = '#a676b5'
+base15 = '#589f76'
 # End flavours
