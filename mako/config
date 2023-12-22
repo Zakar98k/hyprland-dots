@@ -19,22 +19,22 @@ layer=overlay
 anchor=top-left
 
 # Start flavours
-## Base16 Dracula Darker
-# Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+## Base16 Mountain Darker
+# Author: gnsfujiwara (https://github.com/gnsfujiwara)
 #
 # You can use these variables anywhere in the mako configuration file.
 
 background-color=#000000dd
-text-color=#c1c1c1dd
-border-color=#589f76dd
+text-color=#cacacadd
+border-color=#ac8a8cdd
 
 [urgency=low]
 background-color=#000000bb
-text-color=#589f76bb
-border-color=#589f76bb
+text-color=#ac8a8cbb
+border-color=#ac8a8cbb
 
 [urgency=high]
 background-color=#000000ff
-text-color=#de5dafff
-border-color=#589f76ff
+text-color=#ac8a8cff
+border-color=#ac8a8cff
 # End flavours

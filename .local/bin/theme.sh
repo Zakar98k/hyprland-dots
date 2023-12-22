@@ -628,22 +628,22 @@ exit $?
 # Start flavours
 current
 0: #000000
-1: #de5daf
-2: #dbe6a0
-3: #2dca70
-4: #8ab8c0
-5: #a676b5
-6: #b1dfd8
-7: #c1c1c1
-8: #333333
-9: #a676b5
-10: #dbe6a0
-11: #2dca70
-12: #8ab8c0
-13: #a676b5
-14: #b1dfd8
-15: #efefef
+1: #ac8a8c
+2: #8aac8b
+3: #aca98a
+4: #8f8aac
+5: #ac8aac
+6: #8aabac
+7: #cacaca
+8: #3f3f3f
+9: #b99c95
+10: #8aac8b
+11: #aca98a
+12: #8f8aac
+13: #ac8aac
+14: #8aabac
+15: #f0f0f0
 background: #000000
-foreground: #c1c1c1
-cursor: #c1c1c1
+foreground: #cacaca
+cursor: #cacaca
 # End flavours

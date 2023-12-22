@@ -3,19 +3,19 @@
 @define-color base00 #000000;
 @define-color base01 #121212;
 @define-color base02 #222222;
-@define-color base03 #333333;
-@define-color base04 #999999;
-@define-color base05 #c1c1c1;
-@define-color base06 #dedede;
-@define-color base07 #efefef;
-@define-color base08 #de5daf;
-@define-color base09 #a676b5;
-@define-color base0A #2dca70;
-@define-color base0B #dbe6a0;
-@define-color base0C #b1dfd8;
-@define-color base0D #8ab8c0;
-@define-color base0E #a676b5;
-@define-color base0F #589f76;
+@define-color base03 #3f3f3f;
+@define-color base04 #505050;
+@define-color base05 #cacaca;
+@define-color base06 #e7e7e7;
+@define-color base07 #f0f0f0;
+@define-color base08 #ac8a8c;
+@define-color base09 #b99c95;
+@define-color base0A #aca98a;
+@define-color base0B #8aac8b;
+@define-color base0C #8aabac;
+@define-color base0D #8f8aac;
+@define-color base0E #ac8aac;
+@define-color base0F #ac8a8c;
 /* End flavours */
 
 #ironbar.background {
@@ -26,6 +26,7 @@
 #ironbar.background {
   /* border: solid 3px @base03; */
   font-family:
+    /* "strandedttf", */
     "Ttyp0 (OTB)",
     JetBrainsMono Nerd Font,
     Noto Sans CJK Regular,
@@ -54,14 +55,15 @@
     sans;
   font-weight: normal;
   font-size: 16px;
-  margin: 6px;
-  padding: 25px;
-  border: 3px solid @base03;
+  margin: 4px;
+  padding: 15px;
+  border: 2px solid @base02;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* -- Clock -- */
 .clock {
+  font-family: "Ttyp0 (OTB)";
   font-weight: bold;
   font-size: 18px;
   background-color: @base08;
@@ -73,14 +75,16 @@
 
 .popup-clock .calendar-clock {
   color: @base08;
-  margin-bottom: 20px;
+  /* margin-bottom: 12px; */
   font-family: groundedttf;
   font-size: 32px;
 }
 
 .popup-clock .calendar {
   color: @base05;
-  padding: 6px;
+  /* border: 1px solid @base01; */
+  border: none;
+  padding: 8px;
 }
 
 /* -- Upower -- */
@@ -88,7 +92,7 @@
   font-weight: normal;
   background-color: @base00;
   color: @base04;
-  border: 1px solid @base03;
+  border: 1px solid @base02;
   border-radius: 0px 0px 0px 0px;
   border-right: none;
   margin: 4px 0px 4px 4px;

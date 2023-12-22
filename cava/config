@@ -184,8 +184,8 @@ source = auto
 gradient = 1
  gradient_count = 2
 # Start flavours
-gradient_color_1 = '#2dca70'
-gradient_color_2 = '#a676b5'
+gradient_color_1 = '#aca98a'
+gradient_color_2 = '#ac8aac'
 # End flavours
 
 
@@ -194,7 +194,7 @@ gradient_color_2 = '#a676b5'
 # Percentage value for integral smoothing. Takes values from 0 - 100.
 # Higher values means smoother, but less precise. 0 to disable.
 # DEPRECATED as of 0.8.0, use noise_reduction instead
-; integral = 77
+; integral = 92
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
 # monstercat = 1

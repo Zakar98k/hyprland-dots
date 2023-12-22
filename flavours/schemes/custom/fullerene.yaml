@@ -10,8 +10,8 @@ base06: "dedede" # +++
 base07: "eaeaea" # ++++
 base08: "902C3B" # red
 base09: "D78438" # orange
-base0A: "E1A36B" # yellow
-base0B: "2A8664" # green
+base0A: "2A8664" # yellow
+base0B: "E1A36B" # green
 base0C: "1F7A89" # aqua/cyan
 base0D: "546AD8" # blue
 base0E: "875FD4" # purple

@@ -68,12 +68,12 @@ color2 = "blue"
 
 # UI APPEARANCE
 # ---
-now_playing_prefix = "$b$2$7 "
+now_playing_prefix = "$b$2$5 "
 now_playing_suffix = "  $/b$8"
 current_item_prefix = "$b$4$/b$3 "
 current_item_suffix = "  $8"
 
 song_columns_list_format = "(50)[]{t|fr:Title} (0)[yellow]{a}"
 song_list_format = " {%t $R   $8%a$8}|{%f $R   $8%l$8} $8"
-song_status_format = "$b$2 $7 {$b$6 $8 %t $6} $7 $8"
+song_status_format = "$b$2 $5 {$b$6 $8 %t $6} $5 $8"
 song_window_title_format = "Now Playing .."
