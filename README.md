@@ -57,19 +57,7 @@ But with a #000000 background
 ![nvim-with-clock](/screenshots/stardust-kyun-1.png)
 
 ## TO-DO
-
-- [ ] Ironbar Revamp
-  - [x] Add disk usage and updates available in power-menu widget
-  - [ ] Rearrange components into a three-way bar
-  - [ ] Styleeeee it
-- [ ] Nvim
-  - [ ] Make some personal tweaks to NvChad
-- [ ] Swaync
-  - [ ] Configure swaync
-  - [ ] Toggle swaync using custom ironabar image module
-- [ ] Rofi
-  - [ ] Rofi modular configuration
-  - [ ] Wallpaper changing script
+I'm not working on these dots anymore.
 
 <!-- - [x] Add flavours themes and schemes to `flavours/` directory -->
 <!-- - [x] Add wallpapers matching the theme of the desktop -->
